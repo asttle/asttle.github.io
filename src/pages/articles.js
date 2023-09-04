@@ -9,6 +9,7 @@ import artcile1image from "../../public/images/articles/article1.png";
 import artcile2image from "../../public/images/articles/article2.jpeg";
 import artcile3image from "../../public/images/articles/article3.png";
 import artcile4image from "../../public/images/articles/article4.png";
+import artcile5image from "../../public/images/articles/article5.png";
 
 import articlen from "../../public/images/articles/form validation in reactjs using custom react hook.png";
 
@@ -167,28 +168,12 @@ const Articles = (props) => {
               image={artcile4image}
             />
             <Article
-              title={
-                "Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling                "
+              title={"Deploying your Next.js app to EC2 with Nginx and PM2"}
+              image={artcile5image}
+              date={"September 4, 2023"}
+              link={
+                "https://medium.com/@asttle1997/deploying-your-next-js-app-to-ec2-with-nginx-and-pm2-7afc6d878f5b"
               }
-              image={articlen}
-              date={"August 25, 2023"}
-              link={"/"}
-            />
-            <Article
-              title={
-                "Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling                "
-              }
-              image={articlen}
-              date={"August 25, 2023"}
-              link={"/"}
-            />
-            <Article
-              title={
-                "Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling                "
-              }
-              image={articlen}
-              date={"August 25, 2023"}
-              link={"/"}
             />
           </ul>
         </Layout>

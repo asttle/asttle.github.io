@@ -6,6 +6,7 @@ import TwitterIcon, {
   DribbbleIcon,
   GithubIcon,
   LinkedInIcon,
+  MediumIcon,
   MoonIcon,
   PinterestIcon,
   SunIcon,
@@ -101,7 +102,7 @@ export const Navbar = (props) => {
 
         <nav className="flex items-center justify-center flex-wrap">
           <motion.a
-            href="https://twitter.com"
+            href="https://twitter.com/AsttleJ"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -110,7 +111,7 @@ export const Navbar = (props) => {
             <TwitterIcon />
           </motion.a>
           <motion.a
-            href="https://github.com"
+            href="https://github.com/asttle"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -119,7 +120,7 @@ export const Navbar = (props) => {
             <GithubIcon />
           </motion.a>
           <motion.a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/asttle-joseph/"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -128,22 +129,13 @@ export const Navbar = (props) => {
             <LinkedInIcon />
           </motion.a>
           <motion.a
-            href="https://pinterest.com"
-            target={"_blank"}
-            whileHover={{ y: -2 }}
-            whileTap={{ scale: 0.9 }}
-            className="w-6 mx-3 bg-light rounded-full"
-          >
-            <PinterestIcon />
-          </motion.a>
-          <motion.a
-            href="https://dribbble.com/shots"
+            href="https://medium.com/@asttle1997"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             className="w-6 ml-3"
           >
-            <DribbbleIcon />
+            <MediumIcon />
           </motion.a>
 
           <button
