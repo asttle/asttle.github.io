@@ -10,6 +10,10 @@ import artcile2image from "../../public/images/articles/article2.jpeg";
 import artcile3image from "../../public/images/articles/article3.png";
 import artcile4image from "../../public/images/articles/article4.png";
 import artcile5image from "../../public/images/articles/article5.png";
+import artcile6image from "../../public/images/articles/article6.png";
+
+import artcile7image from "../../public/images/articles/article7.png";
+import artcile8image from "../../public/images/articles/article8.png";
 
 import articlen from "../../public/images/articles/form validation in reactjs using custom react hook.png";
 
@@ -173,6 +177,27 @@ const Articles = (props) => {
               date={"September 4, 2023"}
               link={
                 "https://medium.com/@asttle1997/deploying-your-next-js-app-to-ec2-with-nginx-and-pm2-7afc6d878f5b"
+              }
+            />
+
+            <Article
+              title={"AWS Lambda"}
+              image={artcile6image}
+              date={"September 8, 2023"}
+              link={"https://medium.com/@asttle1997/aws-lambda-866c75a7c32"}
+            />
+            <Article
+              title={"AWS API Gateway"}
+              image={artcile7image}
+              date={"September 11, 2023"}
+              link={"https://medium.com/aws-tip/aws-api-gateway-481c0e6802f7"}
+            />
+            <Article
+              title={"AWS Secrets Manager"}
+              image={artcile8image}
+              date={"September 12, 2023"}
+              link={
+                "https://medium.com/@asttle1997/aws-secrets-manager-b0e6ee655d5a"
               }
             />
           </ul>

@@ -3,12 +3,11 @@ import React, { useState } from "react";
 import Logo from "./Logo";
 import { useRouter } from "next/router";
 import TwitterIcon, {
-  DribbbleIcon,
   GithubIcon,
+  HackerankIcon,
   LinkedInIcon,
   MediumIcon,
   MoonIcon,
-  PinterestIcon,
   SunIcon,
 } from "./Icons";
 import { motion } from "framer-motion";
@@ -133,9 +132,19 @@ export const Navbar = (props) => {
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
-            className="w-6 ml-3"
+            className="w-6 ml-3 p-1 bg-light rounded-full"
           >
             <MediumIcon />
+          </motion.a>
+
+          <motion.a
+            href="https://www.hackerrank.com/asttle1997"
+            target={"_blank"}
+            whileHover={{ y: -2 }}
+            whileTap={{ scale: 0.9 }}
+            className="w-8 ml-3 p-1 bg-light rounded-full"
+          >
+            <HackerankIcon />
           </motion.a>
 
           <button
@@ -214,23 +223,25 @@ export const Navbar = (props) => {
             >
               <LinkedInIcon />
             </motion.a>
-            <motion.a
-              href="https://pinterest.com"
-              target={"_blank"}
-              whileHover={{ y: -2 }}
-              whileTap={{ scale: 0.9 }}
-              className="w-6 mx-3 sm:mx-1 bg-light rounded-full"
-            >
-              <PinterestIcon />
-            </motion.a>
+
             <motion.a
               href="https://dribbble.com/shots"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
-              className="w-6 ml-3 sm:mx-1"
+              className="w-6 ml-3 sm:mx-1 bg-light rounded-full"
             >
-              <DribbbleIcon />
+              <MediumIcon />
+            </motion.a>
+
+            <motion.a
+              href="https://www.hackerrank.com/asttle1997"
+              target={"_blank"}
+              whileHover={{ y: -2 }}
+              whileTap={{ scale: 0.9 }}
+              className="w-8 ml-3 sm:mx-1 bg-light rounded-full"
+            >
+              <HackerankIcon />
             </motion.a>
 
             <button
