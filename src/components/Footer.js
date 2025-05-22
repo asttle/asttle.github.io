@@ -9,7 +9,7 @@ const Footer = (props) => {
     font-medium text-lg dark: text-dark dark:border-light sm:text-base dark:text-light"
     >
       <Layout className="py-8 flex items-center justify-between lg:flex-col lg:py-6">
-        <span>{new Date().getFullYear} &copy; All Rights Reserved.</span>
+        <span>Asttle Joseph &mdash; DevOps Engineer &mdash; {new Date().getFullYear()} &copy; All Rights Reserved.</span>
         <div className="flex items-center lg:py-2 ">
           Build With{" "}
           <span className="text-2xl px-1 dark:text-primaryDark">&#128187;</span>

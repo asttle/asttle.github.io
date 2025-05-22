@@ -37,20 +37,29 @@ const Skills = (props) => {
           "
           whileHover={{ scale: 1.05 }}
         >
-          Web
+          DevOps
         </motion.div>
-        <Skill name="HTML" x="-21vw" y="2vw"></Skill>
-        <Skill name="CSS3" x="-5vw" y="-9vw"></Skill>
-        <Skill name="Javascript" x="19vw" y="6vw"></Skill>
-        <Skill name="ReactJS" x="0vw" y="12vw"></Skill>
-        <Skill name="React Native" x="-19vw" y="-15vw"></Skill>
-        <Skill name="NextJS" x="15vw" y="-12vw"></Skill>
-        <Skill name="TypeScript" x="30vw" y="-5vw"></Skill>
-        <Skill name="GraphQL" x="0vw" y="-21vw"></Skill>
-        <Skill name="TailwindCSS" x="-25vw" y="18vw"></Skill>
-        <Skill name="Jest" x="18vw" y="-5vw"></Skill>
-
-        <Skill name="AWS" x="18vw" y="18vw"></Skill>
+        <Skill name="AWS" x="-21vw" y="2vw" />
+        <Skill name="Azure" x="-5vw" y="-9vw" />
+        <Skill name="Docker" x="19vw" y="6vw" />
+        <Skill name="Kubernetes (EKS, AKS)" x="0vw" y="12vw" />
+        <Skill name="Terraform" x="-19vw" y="-15vw" />
+        <Skill name="CloudFormation" x="15vw" y="-12vw" />
+        <Skill name="Jenkins" x="30vw" y="-5vw" />
+        <Skill name="GitHub Actions" x="0vw" y="-21vw" />
+        <Skill name="Prometheus" x="-25vw" y="18vw" />
+        <Skill name="Grafana" x="18vw" y="-5vw" />
+        <Skill name="ELK Stack" x="18vw" y="18vw" />
+        <Skill name="CloudWatch" x="-18vw" y="-22vw" />
+        <Skill name="Python" x="-30vw" y="-5vw" />
+        <Skill name="Shell Scripting" x="25vw" y="-18vw" />
+        <Skill name="ArgoCD" x="-10vw" y="22vw" />
+        <Skill name="Istio" x="10vw" y="22vw" />
+        <Skill name="HashiCorp Vault" x="-32vw" y="10vw" />
+        <Skill name="OpenTelemetry" x="32vw" y="10vw" />
+        <Skill name="Jaeger" x="-32vw" y="-10vw" />
+        <Skill name="Loki" x="32vw" y="-10vw" />
+        <Skill name="Mimir" x="0vw" y="-32vw" />
       </div>
     </>
   );

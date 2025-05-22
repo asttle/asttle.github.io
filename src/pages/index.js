@@ -29,20 +29,11 @@ export default function Home() {
             </div>
             <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Bring complex user interfaces to life."
+                text="Empowering Cloud Infrastructure & Automation as a DevOps Engineer."
                 className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:text-6xl md:!text-5xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-                Innovative and motivated MSc Computing and Technology student
-                with a strong passion for leveraging technology to drive
-                business growth and enhance user experiences.Passionate
-                front-end developer having a great expertise in React and 5
-                years of professional experience in web and mobile app
-                development. A motivated achiever with proven experience in
-                developing complex UI and functionalities with test driven
-                development using Jest, maintaining proper coding practices
-                using ESLint, documenting the work using Storybook and also
-                integration with REST and GraphQL endpoints.
+                Versatile DevOps Engineer with 5+ years of experience specializing in cloud infrastructure, containerization, CI/CD automation, and observability solutions. MSc in Computing and Technology (First Class) from Northumbria University, London. AWS Solutions Architect Associate and Certified Kubernetes Administrator. Proven expertise in deploying AI services, architecting GitOps workflows, multi-cloud migrations, and building robust monitoring stacks. Open to new opportunities and collaborations in DevOps, SRE, and Cloud Engineering.
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link

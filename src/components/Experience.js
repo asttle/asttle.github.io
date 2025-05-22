@@ -61,12 +61,23 @@ const Experience = (props) => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            position={"Senior Software Engineer"}
-            company={"Workhall Private Limited"}
-            companyLink={"https://workhall.com"}
-            time={"July 2022 - Present"}
+            position={"DevOps Engineer"}
+            company={"SigTech"}
+            companyLink={"https://sigtech.com"}
+            time={"August 2024 - Present"}
+            address={"London, UK"}
             work={
-              "Worked on no code platform where any user can build easy to use customisable application; managing team of 10-13 members effectively. Lead front-end team as subject matter expert in React.JS Followed test driven development using Jest and Enzyme Supported mobile application development using React Native Changed code from JavaScript to Typescript. Administered scripts for automation testing in k6 and also building CI/CD pipeline using Jenkins and containerising application using Docker. Helped team build static site using Gatsby.js. Developed server side rendering for website using Next.js. Incorporated adaptable, easy to build CSS frameworks like Tailwind CSS. Implemented connections in Chat module from React to GraphQL API endpoints Focussed on Auto deployment using Fastlane in React native. Collaborated web and mobile app code and building separate component library using Nx. Maintained proper coding standards using ESLint, optimised code using reports from Lighthouse and. documented code using Storybook"
+              "• Successfully deployed AI services and models in cloud environments, establishing infrastructure for model training, serving, and monitoring.\n• Implemented comprehensive observability stack using OpenTelemetry with Jaeger, Prometheus/Mimir, and Fluentbit/Loki across multiple environments, enhancing system reliability and troubleshooting capabilities.\n• Architected GitOps workflow automation using ArgoCD that standardized deployment processes and enabled automatic image updates, significantly reducing manual intervention.\n• Led EKS cluster upgrades across multiple environments, including management of cluster addons and comprehensive documentation of processes.\n• Orchestrated multi-cloud migration strategy including AKS cluster setup, Azure Cache for Redis, and Application Gateway configuration, maintaining service continuity and achieving a 99.99% uptime during the transition process."
+            }
+          />
+          <Details
+            position={"DevOps Engineer"}
+            company={"WorkHall"}
+            companyLink={"https://workhall.com"}
+            time={"July 2022 - April 2023"}
+            address={"Bengaluru, India"}
+            work={
+              "• Collaborated on migration to AWS cloud infrastructure from on-premises, resulting in 40% reduction in infrastructure management time and 30% improvement in system performance and scalability.\n• Developed and deployed infrastructure for EKS clusters using Terraform, cutting provisioning time from 4 hours to 2 hours per cluster.\n• Created and managed CI/CD pipelines with GitHub Actions, reducing deployment time by 20% and increasing deployment frequency from 10 to 17 times per week.\n• Implemented Istio service mesh for EKS clusters to enhance security through mTLS, resulting in 50% reduction in security breaches and incidents.\n• Automated CD pipeline using GitOps with ArgoCD, saving developers time of 20 minutes per build.\n• Employed HashiCorp Vault for secrets management, increasing security and reducing vulnerabilities by 20%."
             }
           />
           <Details
@@ -74,17 +85,9 @@ const Experience = (props) => {
             company={"WNS-Vuram"}
             companyLink={"https://vuram.com"}
             time={"May 2018 - June 2022"}
+            address={"Chennai, India"}
             work={
-              "Worked on free online donation platform (Humane Life) enabling easy and fast contribution of goods for charity homes, non-profit organisations and NGOs. Focusing on front-end development and also contributed to back-end API written in Django. Managing and developing mobile applications for this platform using React native. Holding responsibility in deploying code to beta app distribution for beta testing and final product to app store and play store for mobile application. Developed bridge modules for native support in iOS. Performed optimisation strategies to reduce application size by 40% and increased app downloads by 20% Visited 10 NGOs to market product"
-            }
-          />
-          <Details
-            position={"Intern"}
-            company={"WNS-Vuram"}
-            companyLink={"https://workhall.com"}
-            time={"January 2022 - April 2018"}
-            work={
-              "Worked on building plugins in java to preserve document formatting while converting PDF document to word document(especially Arabic). Acquired knowledge about basics of Angular JS. Learned about basics of Node JS and socket programming."
+              "• Overcame scalability hurdles to enable donations exceeding 1 crore, introducing real-time tracking features that increased donation efficiency by 30%.\n• Administered shell scripting for database migration which reduced manual effort by more than 50%.\n• Incorporated real-time donation tracking and push notifications into Humane platform mobile apps, resulting in 50% increase in app downloads and 100% surge in active users.\n• Applied code splitting and asset compression techniques, reducing application size from 15 MB to 5 MB."
             }
           />
         </ul>

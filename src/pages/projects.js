@@ -9,6 +9,8 @@ import humaneImage from "../../public/images/projects/humanelife.png";
 import workhallImage from "../../public/images/projects/workhall.png";
 import projectManagementImage from "../../public/images/projects/project-management.jpeg";
 import { motion } from "framer-motion";
+import artcile1image from "../../public/images/articles/article1.png";
+import artcile2image from "../../public/images/articles/article2.jpeg";
 
 const FramerImage = motion(Image);
 
@@ -150,38 +152,62 @@ const Projects = (props) => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12 ">
               <FeaturedProject
-                title="Workhall"
+                title="Cloud-Native AI Model Deployment"
                 image={workhallImage}
                 summary={
-                  "Working on no code platform where any user can build an easy to use customizable application; managing the team of 10 – 13 members effectively. Leading the front-end team as subject matter expert in ReactJs. Following test driven development using Jest and Enzyme. Supporting mobile application development using React Native. Following typescript usage wherever possible within application. Administering scripts for automation testing in k6 and also building CI/CD pipeline using Jenkins and containerizing the application using Docker. Helping team build static site using Gatsby.js. Performing analysis, design, verification, demonstration and maintenance of products in a process-driven, team environment"
+                  "Deployed AI services and models in AWS and Azure, establishing infrastructure for model training, serving, and monitoring. Automated deployment pipelines and implemented robust monitoring using OpenTelemetry, Prometheus, and Jaeger."
                 }
-                link={"https://workhall.com"}
-                type={"Featured Project"}
-                gitLink={"https://github.com/thehumanelife/humane20"}
+                link={"https://sigtech.com"}
+                type={"Featured DevOps Project"}
+                gitLink={"https://github.com/asttle"}
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="The Humane Life"
+                title="GitOps Workflow Automation with ArgoCD"
                 summary={
-                  "Worked on a free online donation platform (Humane Life) enabling easy and fast contribution of goods for charity homes, non-profit organizations and NGOs. Focusing on front-end development and also contributed to back-end APIs written in Django. Managing and developing mobile applications for this platform using React native. Holding responsibility in deploying code to beta app distribution for beta testing and final product to app store and play store for mobile applications"
-                }
-                image={humaneImage}
-                link={"https://thehumane.life"}
-                type={"Featured Project"}
-                gitLink={"https://github.com/thehumanelife/humane20"}
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="Project Management"
-                summary={
-                  "This was a personal learning project to get hands on typescript and how to deploy a project on AWS using Nginx web server."
+                  "Architected and implemented GitOps workflow automation using ArgoCD, standardizing deployment processes and enabling automatic image updates across multiple environments."
                 }
                 image={projectManagementImage}
-                link={"http://18.132.210.222/"}
-                type={"Personal Project"}
-                gitLink={"https://github.com/asttle/drag-drop-typescript"}
+                link={"https://sigtech.com"}
+                type={"DevOps Project"}
+                gitLink={"https://github.com/asttle"}
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Multi-Cloud Migration & EKS/AKS Upgrades"
+                summary={
+                  "Orchestrated multi-cloud migration strategy, including EKS and AKS cluster setup, Azure Cache for Redis, and Application Gateway configuration. Led EKS cluster upgrades and managed cluster addons, achieving 99.99% uptime during transitions."
+                }
+                image={humaneImage}
+                link={"https://sigtech.com"}
+                type={"DevOps Project"}
+                gitLink={"https://github.com/asttle"}
+              />
+            </div>
+            <div className="col-span-12">
+              <Project
+                title="Observability Stack Implementation"
+                summary={
+                  "Implemented comprehensive observability stack using OpenTelemetry, Jaeger, Prometheus/Mimir, and Fluentbit/Loki across multiple environments, enhancing system reliability and troubleshooting capabilities."
+                }
+                image={artcile1image}
+                link={"https://sigtech.com"}
+                type={"DevOps Project"}
+                gitLink={"https://github.com/asttle"}
+              />
+            </div>
+            <div className="col-span-12">
+              <Project
+                title="CI/CD Pipeline Automation"
+                summary={
+                  "Created and managed CI/CD pipelines with GitHub Actions and Jenkins, reducing deployment time and increasing deployment frequency. Automated CD pipeline using GitOps with ArgoCD."
+                }
+                image={artcile2image}
+                link={"https://workhall.com"}
+                type={"DevOps Project"}
+                gitLink={"https://github.com/asttle"}
               />
             </div>
           </div>

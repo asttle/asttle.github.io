@@ -52,17 +52,17 @@ const Education = (props) => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            type={"Master of Science in Computing and Technology"}
+            type={"MSc in Computing and Technology, 1st Class Honours"}
             place={"Northumbria University, London, UK"}
-            time={"May 2023 - Present"}
+            time={"2023 - 2024"}
             info={
-              "Progressing exceptionally well, providing me with valuable knowledge and skills to thrive in the dynamic field of technology."
+              "Modules: Information Governance and Cyber Security (1st), Database and Analytics Principles (1st)."
             }
           />
           <Details
             type={"Bachelor of Technology in Information Technology"}
             place={"Saranathan College of Engineering, India"}
-            time={"May 2014 - April 2018"}
+            time={"2014 - 2018"}
             info={"Won the award of meritocracy twice."}
           />
         </ul>

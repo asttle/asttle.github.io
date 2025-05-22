@@ -40,7 +40,7 @@ const About = (props) => {
       <main className="flex w-full flex-col items-center dark:text-light justify-center">
         <Layout className="pt-16">
           <AnimatedText
-            text="Intensity fuels aspiration!"
+            text="Automating Cloud, Empowering Teams."
             className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
@@ -49,43 +49,13 @@ const About = (props) => {
                 About me
               </h2>
               <p className="font-medium">
-                I am Asttle Joseph, an innovative and motivated MSc Computing
-                and Technology student based in London, United Kingdom. With a
-                deep passion for harnessing technology to drive business growth
-                and enhance user experiences, I am a dedicated front-end
-                developer with a strong expertise in React and over 5 years of
-                professional experience in web and mobile app development.
+                I am Asttle Joseph, a DevOps Engineer based in London, UK, with over 5 years of experience in the software industry. I specialize in cloud infrastructure (AWS, Azure), containerization (Docker, Kubernetes), CI/CD automation, and observability solutions. I recently completed my MSc in Computing and Technology from Northumbria University with first-class honours. I am passionate about building scalable, reliable, and secure systems, and have a proven track record of delivering robust solutions in fast-paced environments.
               </p>
               <p className="font-medium my-4">
-                My educational journey includes pursuing a Master of Science in
-                Computing and Technology from Northumbria University, London,
-                and achieving a Bachelor of Technology in Information Technology
-                from Saranathan College of Engineering in India, where I
-                graduated as an academic topper.
+                My expertise includes deploying AI services in the cloud, architecting GitOps workflows with ArgoCD, leading EKS/AKS cluster upgrades, orchestrating multi-cloud migrations, and implementing comprehensive observability stacks using OpenTelemetry, Jaeger, Prometheus, and Loki. I am certified as an AWS Solutions Architect Associate and a Kubernetes Administrator.
               </p>
-              <p p className="font-medium my-4">
-                In my current role as a Lead Software Engineer at Workhall
-                Private Ltd in Chennai, TN, I have been instrumental in working
-                on a no-code platform that empowers users to build easily
-                customizable applications. Managing a team of 10-13 members
-                effectively, I lead the front-end team as a subject matter
-                expert in React.JS. My approach includes test-driven development
-                using Jest and Enzyme, supporting mobile app development with
-                React Native, and implementing valuable changes like
-                transitioning code from JavaScript to TypeScript. My
-                responsibilities extend to automation testing using k6, building
-                CI/CD pipelines with Jenkins, and containerizing applications
-                using Docker. Moreover, I contributed to building static sites
-                using Gatsby.js and implemented server-side rendering for
-                websites using Next.js. I'm experienced in incorporating CSS
-                frameworks like Tailwind CSS, establishing connections from
-                React to GraphQL API endpoints for chat modules, and focusing on
-                auto deployment using Fastlane in React Native. Collaboration
-                and code maintenance are also central to my role, as I
-                collaborate on web and mobile app code while creating a separate
-                component library using Nx. Ensuring code quality, optimization,
-                and documentation are integral to my work, utilizing ESLint,
-                Lighthouse reports, and Storybook for these purposes.
+              <p className="font-medium my-4">
+                I am always eager to learn new technologies and collaborate with teams to drive automation, efficiency, and innovation. Let's connect if you are looking for a DevOps Engineer who can make a difference!
               </p>
             </div>
             <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 lg:col-span-4 md:order-1 md:col-span-8">

@@ -20,7 +20,7 @@ const HireMe = (props) => {
           md:w-12 md:h-12 md:text-[10px]
           "
         >
-          Hire Me
+          Hire Me for DevOps
         </Link>
       </div>
     </div>
